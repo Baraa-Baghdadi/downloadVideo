@@ -94,8 +94,8 @@
 
       console.log("data",data)
 
-      if (data['video-url']) {
-        result.innerHTML = `<p>Video Download URL:</p><a href="${data['video-url']}" target="_blank">${data['video-url']}</a>`;
+      if (data['file_url']) {
+        result.innerHTML = `<p>Video Download URL:</p><a href="${data['file_url']}" target="_blank">${data['file_url']}</a>`;
       } else {
         result.innerHTML = `<p style="color:red;">Error: No video URL returned.</p>`;
       }
